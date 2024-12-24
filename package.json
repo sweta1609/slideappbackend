@@ -1,0 +1,31 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "cross-env DEV_ENV=true nodemon --inspect index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@googleapis/slides": "^1.0.5",
+    "@looker/sdk-node": "^23.20.1",
+    "axios": "^1.6.5",
+    "cookie-session": "^2.0.0",
+    "cors": "^2.8.5",
+    "cross-env": "^7.0.3",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "express-async-handler": "^1.2.0",
+    "google-auth-library": "^9.4.2",
+    "googleapis": "^131.0.0",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.1.0",
+    "nodemon": "^3.0.3",
+    "passport": "^0.7.0",
+    "passport-google-oauth20": "^2.0.0",
+    "winston": "^3.11.0"
+  }
+}
